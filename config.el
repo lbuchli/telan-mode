@@ -6,8 +6,8 @@
   :config
   (setq
    telan-highlights '(
-      ("true\\|false" . font-lock-keyword-face)
-      ("[0-9]*(\.[0-9]+)?" . font-lock-constant-face)
+      ("true|false" . font-lock-keyword-face)
+      ("[0-9]*(\\.[0-9]+)?" . font-lock-constant-face)
    )
   )
 )
